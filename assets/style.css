@@ -6,7 +6,18 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
+  background-color: var(--antique-brass);
 }
 
 :root {
+  --champagne-pink: #eed7c5ff;
+  --tuscany: #c89f9cff;
+  --copper-red: #c97c5dff;
+  --copper-penny: #b36a5eff;
+  --antique-brass: #cb997eff;
+  --desert-sand: #ddbea9ff;
+  --champagne-pink: #ffe8d6ff;
+  --ash-gray: #b7b7a4ff;
+  --artichoke: #a5a58dff;
+  --ebony: #6b705cff;
 }
