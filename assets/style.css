@@ -105,7 +105,7 @@ nav a:hover::before {
 
 .me {
   margin-left: 65%;
-  margin-top: 8%;
+  margin-top: 5%;
   border-radius: 25px;
   border: 2px solid var(--light-gray);
   padding: 20px;
@@ -120,7 +120,7 @@ nav a:hover::before {
 .text-box {
   position: absolute;
   top: 22%;
-  margin-left: 5%;
+  margin-left: 10%;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -186,8 +186,8 @@ nav a:hover::before {
 .social-icons {
   position: absolute;
   right: 5%;
-  bottom: 8%;
-  margin-top: 5%;
+  bottom: 11.5%;
+  /* margin-top: 5%; */
 }
 
 .social-icons img {
@@ -197,6 +197,17 @@ nav a:hover::before {
 }
 
 /* -------------------------------- Projects -------------------------------- */
+.about-me {
+  background-color: var(--antique-brass);
+  font-family: "Jost", sans-serif;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.about {
+  font-size: 25px;
+}
+
 .projects-title {
   background-color: var(--copper-penny);
   font-family: "Jost", sans-serif;
@@ -206,18 +217,110 @@ nav a:hover::before {
 .project-image1 {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-bottom: -20%;
   margin-top: 3%;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--light-gray);
 }
 
 #text1 {
-  margin-left: 50%;
+  margin-left: 42%;
   /* margin-bottom: 100px; */
   color: var(--light-gray);
   font-family: "Playfair Display", serif;
   font-size: 20px;
   display: inline-block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+.project-image2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: -20%;
+  margin-top: 17%;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--light-gray);
+}
+
+#pic2 {
+  margin-left: 58.4%;
+}
+
+#text2 {
+  margin-left: 8%;
+  margin-right: 50%;
+  /* margin-bottom: 100px; */
+  color: var(--light-gray);
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+.project-image3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin-bottom: 50%; */
+  margin-top: 17%;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--light-gray);
+}
+
+#pic3 {
+  margin-right: 57.4%;
+}
+
+#text3 {
+  margin-top: -28%;
+  margin-left: 60%;
+  margin-right: 9%;
+  color: var(--light-gray);
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  display: inline-flexbox;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+}
+
+.project-image4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin-bottom: 50%; */
+  margin-top: 15%;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--light-gray);
+}
+
+#pic4 {
+  margin-left: 15%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+#text4 {
+  margin-top: -19%;
+  margin-left: 45%;
+  margin-right: 3%;
+  color: var(--light-gray);
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  display: inline-flexbox;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
